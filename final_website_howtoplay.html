@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta content="en-us" http-equiv="Content-Language" />
+  <link href="final_website.css" rel="stylesheet" type="text/css" />
+  <title> League of Legends Home </title>
+</head>
+<body id="body" onload="startTime()">
+  <div class="box"> <!--content box-->
+
+    <div id="banner">
+      <div id="clock"></div>
+      <a name="topAnchor"></a>
+      <h1 class="webTitle">League of Legends</h1>
+      <h2 class="pageTitle">How to Play</h2>
+
+      <button type="button" class="homeButton" onclick="home()">Home</button> <!--Button-->
+      <button type="button" class="newsButton" onclick="news()">News</button> <!--Button-->
+      <button type="button" class="howButton" onclick="howToPlay()">How to Play</button> <!--Button-->
+    </div>
+
+    <div class="content">
+      <h2>Getting Started in League of Legends</h2>
+      <p>A lot goes into a successful battle on the Fields of Justice. In the new player guide, you’ll learn how to control your champion, the structures you’ll encounter on the battlefield and play through the tutorial process. When you’re ready, you’ll enter the fray in your first game of competitive League of Legends.</p>
+      <p>na.leagueoflegends.com/en/game-info/</p>
+      <img src="lol_image1.jpg" alt="Pro Players" class="contImage" />
+    </div>
+
+    <div class="contentSansImg">
+      <h2>Choose Your Role</h2>
+
+      <div class="hovTop">
+        <button class="top">Top Lane</button>
+        <div class="roleDesc">
+        <a>Top laners are solo players. Hulking and difficult to take down, you'll use your strength and resolve to overpower your opponent.</a>
+        <br />
+        <a>signup.na.leagueoflegends.com/</a>
+        </div>
+      </div>
+
+      <div class="hovMid">
+        <button class="mid">Middle Lane</button> <!--scroll over-->
+        <div class="roleDesc">
+          <a>Mid laners look for the outplay. One mistake, and your opponent could lose their life...or you could lose yours.</a>
+          <br />
+          <a>signup.na.leagueoflegends.com/</a>
+        </div>
+      </div>
+
+      <div class="hovSup">
+        <button class="support">Support</button> <!--scroll over-->
+        <div class="roleDesc">
+          <a>Supports are League's guardians. Keeping your bot laner alive and your enemies controlled is your job. When done correctly, the support can carry the game.</a>
+          <br />
+          <a>signup.na.leagueoflegends.com/</a>
+        </div>
+      </div>
+
+      <div class="hovBot">
+        <button class="bot">Bottom Lane</button> <!--scroll over-->
+        <div class="roleDesc">
+          <a>Bot laners shoot first, and keep shooting. Dealing massive damage from a safe distance, you'll clear the battlefield and rack up kills.</a>
+          <br />
+          <a>signup.na.leagueoflegends.com/</a>
+        </div>
+      </div>
+
+      <div class="hovJung">
+        <button class="jungle">Jungle</button> <!--scroll over-->
+        <div class="roleDesc">
+          <a>Junglers live for the hunt. Stalking the jungle between lanes with stealth and skill, you appear the moment your opponent lets their guard down.</a>
+          <br />
+          <a>signup.na.leagueoflegends.com/</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Summoner's Code</h2>
+      <p>Here you can learn more about the different aspects of your summoner, including the runes, masteries and spells you can use to customize your champion on the Fields of Justice. These powerful tools allow you to tailor a champion to your individual playstyle, opening new strategies and tactics. Learn more about your summoner here.</p>
+      <p>na.leagueoflegends.com/en/game-info/get-started/</p>
+      <img src="lol_image7.jpg" alt="Champions" class="contImage" />
+    </div>
+
+    <div class="contentSansImg">
+      <h2>Calculate Your KDA</h2>
+      <p>KDA stands for kills + (Assists/3) / Deaths. Enter your number of kills, deaths, and assists in the related boxes and the n click submit to find our what your KDA is.</p>
+      <input type="text" name="kills" id="kills" value="Enter Kills" /> <!--input-->
+      <input type="text" name="assists" id="assists" value="Enter Assists" />
+      <input type="text" name="deaths" id="deaths" value="Enter Deaths" />
+      <button type="submit" onclick="kdaSubmit()">Submit</button> <!--Button-->
+      <br />
+      <div id="output"></div> <!--output-->
+    </div>
+
+    <div id="footer">
+      <p class="sig">By Jarrod Vandenbogaerde</p> <!--Footer-->
+      <a href="#topAnchor" class="anchor">Top of Page</a>
+    </div>
+
+  </div>
+  <script type="text/javascript" src="final_website.js"></script>
+</body>
+</html>

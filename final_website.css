@@ -1,0 +1,408 @@
+#body{
+  background-color:black;
+}
+
+.box{
+margin-top:0px;
+margin-right:10%;
+margin-bottom:0px;
+margin-left:10%;
+background-color:blue;
+background-image: linear-gradient(to bottom, #2F00FF, #230260);
+}
+
+#banner{
+  display: block;
+  position:relative;
+  background-image: url("banner_for_webpage.png");
+  height:600px;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.webTitle{
+  color:#FFC23A;
+  text-shadow: 1px 1px black;
+  font-family:"Times New Roman", Times, serif;
+  font-size:500%;
+  position: absolute;
+  left: 50%;
+    transform: translate(-50%, 0);
+  top: 200px;
+  z-index:2;
+}
+
+.pageTitle{
+  color:#FFC23A;
+  text-shadow: 1px 1px black;
+  font-family:"Times New Roman", Times, serif;
+  font-size:300%;
+  position: absolute;
+  left: 50%;
+    transform: translate(-50%, 0);
+  top: 350px;
+  z-index:2;
+}
+
+.homeButton {
+  font-family:"Times New Roman", Times, serif;
+  position:absolute;
+  top:85%;
+  left:20%;
+  background-color: #FFC23A;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 200px;
+  z-index:2;
+}
+
+.homeButton:hover {background-color: #B68B29}
+
+.newsButton {
+  font-family:"Times New Roman", Times, serif;
+  position:absolute;
+  top:85%;
+  left: 50%;
+    transform: translate(-50%, 0);
+  background-color: #FFC23A;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 200px;
+  z-index:2;
+}
+
+.newsButton:hover {background-color: #B68B29}
+
+.howButton {
+  font-family:"Times New Roman", Times, serif;
+  position:absolute;
+  top:85%;
+  right:20%;
+  background-color: #FFC23A;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 200px;
+  z-index:2;
+}
+
+.howButton:hover {background-color: #B68B29}
+
+.content {
+  font-family:"Times New Roman", Times, serif;
+  position:relative;
+  height:400px;
+  padding-top: 90px;
+  padding-right: 500px;
+  padding-bottom: 35px;
+  padding-left: 55px;
+  margin-top:70px;
+  margin-right:10%;
+  margin-bottom:0px;
+  margin-left:10%;
+  background-color:#FFC23A;
+}
+
+.contentSansImg {
+  font-family:"Times New Roman", Times, serif;
+  position:relative;
+  height:400px;
+  padding-top: 20px;
+  padding-right: 55px;
+  padding-bottom: 35px;
+  padding-left: 55px;
+  margin-top:70px;
+  margin-right:10%;
+  margin-bottom:0px;
+  margin-left:10%;
+  background-color:#FFC23A;
+}
+
+#footer {
+  font-family:"Times New Roman", Times, serif;
+  position:relative;
+  height:20px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  margin-top:70px;
+  margin-right:0px;
+  margin-bottom:2px;
+  margin-left:0px;
+  background-color:#FFC23A;
+}
+
+.video {
+  position:absolute;
+  width:100%;
+  height:100%;
+  Top:0;
+  left:0;
+  width=640;
+  height=360;
+  frameborder=0;
+  allow="autoplay; encrypted-media";
+}
+
+
+
+.top {
+  font-family:"Times New Roman", Times, serif;
+  background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width:205px;
+    border: none;
+}
+
+.hovTop {
+  position: relative;
+    display: inline-block;
+}
+
+.mid {
+  font-family:"Times New Roman", Times, serif;
+  background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width:205px;
+    border: none;
+}
+
+.hovMid {
+  position: relative;
+    display: inline-block;
+}
+
+.bot {
+  font-family:"Times New Roman", Times, serif;
+  background-color: #2F00FF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width:205px;
+    border: none;
+}
+
+.hovBot {
+  position: relative;
+    display: inline-block;
+}
+
+.support {
+  font-family:"Times New Roman", Times, serif;
+  background-color: #2F00FF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width:205px;
+    border: none;
+}
+
+.hovSup {
+  position: relative;
+    display: inline-block;
+}
+
+.jungle {
+  font-family:"Times New Roman", Times, serif;
+  background-color: #2F00FF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width:205px;
+    border: none;
+}
+
+.hovJung {
+  position: relative;
+    display: inline-block;
+}
+
+.roleDesc {
+  display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+.roleDesc a {
+    color: black;
+    padding: 12px 16px;
+    font-family:"Times New Roman", Times, serif;
+    display: block;
+}
+
+.hovTop:hover .roleDesc {display: block;}
+
+.hovMid:hover .roleDesc {display: block;}
+
+.hovBot:hover .roleDesc {display: block;}
+
+.hovSup:hover .roleDesc {display: block;}
+
+.hovJung:hover .roleDesc {display: block;}
+
+* {box-sizing:border-box}
+
+/* Slideshow container source: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+
+.slideContainer {
+  max-width: 425px;
+  max-height: 425px;
+  position: relative;
+  margin:auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#clock {
+  position:absolute;
+  top:10px;
+  left:10px;
+  background-color: #FFC23A;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-family:"Times New Roman", Times, serif;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 200px;
+  z-index:2;
+}
+
+.sig {
+  position:absolute;
+  z-index: 2;
+  top:50%;
+  right:20px;
+}
+
+.contImage {
+  position:absolute;
+  z-index: 2;
+  top:22%;
+  right:100px;
+  width:380px;
+  height: auto;
+}
+
+.anchor {
+  position:absolute;
+  z-index: 2;
+  top:50%;
+  left: 50%;
+    transform: translate(-50%, 0);
+}
